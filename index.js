@@ -1,12 +1,13 @@
 import Twitter from 'twit';
 import dec from 'bignum-dec';
-import { merge, pipe, prop, last, concat, isEmpty } from 'ramda';
+import { map, merge, pipe, prop, last, concat, isEmpty } from 'ramda';
 
 const defaults = {
   count: 200,
   trim_user: true,
   include_rts: true,
   exclude_replies: false,
+  tweet_mode: 'extended',
 };
 
 function getNextOptions(options, tweets) {
@@ -28,5 +29,6 @@ function accumulate(client, options, tweets) {
 export default function getTweets(tokens, username, sinceId) {
   const client = new Twitter(tokens);
   const options = merge(defaults, { screen_name: username, since_id: sinceId });
-  return accumulate(client, options, []);
+  const addTextField = twi => Object.assign(twi, { text: twi.full_text });
+  return map(addTextField, accumulate(client, options, []));
 }

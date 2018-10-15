@@ -1,6 +1,6 @@
 {
-  "name": "get-tweets",
-  "version": "4.0.0",
+  "name": "@xamgore/get-tweets",
+  "version": "4.1.0",
   "description": "Get latest tweets",
   "main": "index.es5.js",
   "scripts": {
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamstarkov/get-tweets.git"
+    "url": "git+https://github.com/xamgore/get-tweets.git"
   },
   "keywords": [
     "twitter",
@@ -23,12 +23,12 @@
     "automatisation",
     "automation"
   ],
-  "author": "Vladimir Starkov <iamstarkov@gmail.com> (http://iamstarkov.com/)",
+  "author": "Igor Strebezhev <xamgore+npm@ya.ru>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iamstarkov/get-tweets/issues"
+    "url": "https://github.com/xamgore/get-tweets/issues"
   },
-  "homepage": "https://github.com/iamstarkov/get-tweets#readme",
+  "homepage": "https://github.com/xamgore/get-tweets#readme",
   "dependencies": {
     "bignum-dec": "^1.0.0",
     "ramda": "^0.19.1",

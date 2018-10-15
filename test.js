@@ -17,6 +17,15 @@ it('getTweets including since_id', done => {
   getTweets(tokens, 'largescalejs_ru', dec('424119506508980224')).then(res => {
     equal(res.length, 37);
     equal(last(res).id_str, '424119506508980224');
+    equal(last(res).text, last(res).full_text);
+    done();
+  });
+});
+
+it('contains full text', done => {
+  getTweets(tokens, 'xamgore', dec('1051799017884188673')).then(res => {
+    const twi = last(res);
+    equal(twi.text, twi.full_text);
     done();
   });
 });

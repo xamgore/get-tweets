@@ -73,19 +73,19 @@ Type: `String`
 
 ## License
 
-MIT © [Vladimir Starkov](https://iamstarkov.com/)
+MIT © Igor Strebezhev, [Vladimir Starkov](https://iamstarkov.com/)
 
 [npm-url]: https://npmjs.org/package/get-tweets
 [npm-image]: https://img.shields.io/npm/v/get-tweets.svg?style=flat-square
 
-[travis-url]: https://travis-ci.org/iamstarkov/get-tweets
-[travis-image]: https://img.shields.io/travis/iamstarkov/get-tweets.svg?style=flat-square
+[travis-url]: https://travis-ci.org/xamgore/get-tweets
+[travis-image]: https://img.shields.io/travis/xamgore/get-tweets.svg?style=flat-square
 
-[coveralls-url]: https://coveralls.io/r/iamstarkov/get-tweets
-[coveralls-image]: https://img.shields.io/coveralls/iamstarkov/get-tweets.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/xamgore/get-tweets
+[coveralls-image]: https://img.shields.io/coveralls/xamgore/get-tweets.svg?style=flat-square
 
-[depstat-url]: https://david-dm.org/iamstarkov/get-tweets
-[depstat-image]: https://img.shields.io/david/iamstarkov/get-tweets.svg?style=flat-square
+[depstat-url]: https://david-dm.org/xamgore/get-tweets
+[depstat-image]: https://img.shields.io/david/xamgore/get-tweets.svg?style=flat-square
 
 [get-twitter-info]: https://github.com/iamstarkov/get-twitter-info
 [get-twitter-followers]: https://github.com/iamstarkov/get-twitter-followers
